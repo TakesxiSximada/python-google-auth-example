@@ -1,0 +1,3 @@
+tornado
+miniconfig
+https://github.com/yoshiori/pit/archive/master.zip
