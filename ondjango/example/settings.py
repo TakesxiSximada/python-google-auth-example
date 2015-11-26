@@ -130,7 +130,7 @@ SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = credentials['client_secret']
 AUTH_USER_MODEL = 'app.CustomUser'
 
 LOGIN_URL = '/login/'
-LOGIN_REDIRECT_URL = '/complete/google-oauth2'
+LOGIN_REDIRECT_URL = '/redirect'
 URL_PATH = ''
 # SOCIAL_AUTH_STRATEGY = 'social.strategies.django_strategy.DjangoStrategy'
 # SOCIAL_AUTH_STORAGE = 'social.apps.django_app.default.models.DjangoStorage'
